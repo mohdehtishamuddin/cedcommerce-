@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Radio+Canada:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+      font-family: 'Montserrat', sans-serif;
+}
+.sections{
+    display: none;
+}
+.heros{
+ background-image: url("./img/hero-bg.png");
+ padding: 6% 6% 3% 21%;
+}
+.screens{
+    display: flex;
+}
+.ced-new-logo{
+  padding-bottom: 10%;  
+}
+.container{
+    font-weight: 800;
+    font-size: 55px;
+    text-shadow: 0 10px 10px rgb(0 0 0 / 25%);
+    padding-bottom:5% ;
+}
+.part{
+    font-weight: 800;
+    font-size: 32px;
+    text-shadow: 0 10px 10px rgb(0 0 0 / 25%);
+}
+.hero-key{
+    padding-left: 20px;
+    height: 400px;
+    width: 100%;
+}
+#hero{
+   width: 100%;
+   height: 400px;
+   margin-top: 100px;
+}
+.form{
+    width: 65%; 
+    margin: auto;
+}
+.form > h2{
+    font-weight: 600;
+    font-size: 24px;
+}
+.form{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.col{
+    width: 100%;
+}
+input{
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #e9eaed;
+    border: none;
+    width: 80%;
+    margin: 0 5px 0 0 ;
+}
+input::placeholder{
+    color: black;
+    font-size: 16px;
+}
+.loginBTN{
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    width: 400px;
+  }
+
+.loginBTN:hover {background-color: blue}
+
+.button:active {
+    background-color: blue;
+    transform: translateY(4px);
+  }
+  
+.back{
+    margin-top: 25px;
+    padding: 15px;
+    margin-left: 250px;
+}
+.divisions{
+    border-bottom: 1px solid #b5b5b599;
+    width: 85%;
+    margin: auto;
+}
+.social_login, .account{
+    padding: 5% 0 7% 20%;
+
+}
+.Account_btn{
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    width: 400px;
+}
+.Account_btn:hover{background-color: blue}
+
+.h2{
+    margin-bottom: 4%;
+}
+.social_div{
+    background-color: #f0f0f0;
+    width: 145px;
+    padding: 18px 8px;
+    font-size: 13px;
+}
+.social_div:hover{
+    box-shadow: 0 40px 20px -20px rgb(0 0 0 / 30%);
+}
+.Loging{
+    margin-left: 240px;
+}
+.forgot{
+    margin-top: 25px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1000px){
+    .heros{
+        width: 70%;
+    }
+    .hero-key{
+        float: right;
+        position: absolute;
+        top: 272px;
+    }
+    .heros{
+        padding: 6% 6% 3% 12%;
+    }
+    .container{
+        font-size: 46px;    
+    }
+    .part{
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .hero-key{
+        float: right;
+        position: absolute;
+        top: 272px;
+    }
+    .heros{
+        padding: 6% 6% 3% 12%;
+    }
+    .container{
+        font-size: 46px;    
+    }
+    .part{
+        font-size: 25px;
+    }
+    input{
+        width: 70%
+    };
+}
+
+@media screen and (max-width:767px){
+    .social_login, .account{
+        padding: 5% 0% 7% 8%;
+    }
+    .h2{
+        font-size: 22px;
+    }
+    .heros{
+        padding: 6% 6% 3% 37%;
+    }
+    .screens{
+        display: none;
+    }
+    .sections{
+        display: contents;
+        padding: 10%;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .col{
+        padding-bottom: 10px;
+    }
+}
